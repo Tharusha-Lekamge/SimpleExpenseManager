@@ -19,14 +19,6 @@ public class PersistentAccountDAO  extends SQLiteOpenHelper implements AccountDA
 
     public static final String ACCOUNT_TABLE = "`ACCOUNT`";
     public static final String TRANSACTION_TABLE = "`TRANSACTION`";
-    public static final String ACCOUNT_NO = "ACCOUNT_NO";
-    public static final String HOLDER = "HOLDER";
-    public static final String BANK = "BANK";
-    public static final String BALANCE = "BALANCE";
-    public static final String ID = "ID";
-    public static final String TYPE = "TYPE";
-    public static final String AMOUNT = "AMOUNT";
-    public static final String DATE = "DATE";
 
     public PersistentAccountDAO(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
