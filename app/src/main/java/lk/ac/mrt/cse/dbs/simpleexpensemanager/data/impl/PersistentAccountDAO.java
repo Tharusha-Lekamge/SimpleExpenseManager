@@ -15,7 +15,7 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.exception.InvalidAccountExcep
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
 
-public class PersistentAccountDAO  extends SQLiteOpenHelper implements AccountDAO{
+public class PersistentAccountDAO extends SQLiteOpenHelper implements AccountDAO{
 
     public static final String ACCOUNT_TABLE = "`ACCOUNT`";
     public static final String TRANSACTION_TABLE = "`TRANSACTION`";
